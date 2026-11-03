@@ -104,4 +104,4 @@ new_mask = (((i[:,:]) == [255,100,255]).all(axis=-1))
 i[new_mask] = shugga[new_mask]
 
 
-mpimg.imsave('i.jpg', i)
+# mpimg.imsave('i.jpg', i)
