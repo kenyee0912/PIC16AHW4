@@ -52,7 +52,7 @@ c[row_diff_div2 : row_end, col_diff_div2 : col_end] = b
 
 
 
-mpimg.imsave('c.jpg', c)
+# mpimg.imsave('c.jpg', c)
 
 
 #%% Q2
@@ -74,7 +74,7 @@ f = d.copy()
 f[~bool_mask] = [0,0,0]
 f = f.astype(np.uint8)
 
-mpimg.imsave('f.jpg', f)
+# mpimg.imsave('f.jpg', f)
 
 
 #%% Q3
